@@ -5,10 +5,7 @@ from typing import Dict, Any
 from datetime import datetime
 import json
 import logging
-from dotenv import load_dotenv
 
-# Load environment variables from .env file if it exists
-load_dotenv()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
